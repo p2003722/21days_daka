@@ -1,0 +1,132 @@
+/* 设置全局样式 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: url("/image/background.jpg") center / cover fixed;
+}
+
+/* 设置页面标题的样式 */
+h1 {
+  font-size: 36px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* 设置页面副标题的样式 */
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* 设置表单标题的样式 */
+h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* 设置表单样式 */
+form {
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
+
+/* 设置标签样式 */
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* 设置文件上传样式 */
+input[type="file"] {
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* 设置提交按钮样式 */
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 0 0 2px #fff;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 设置提交按钮的悬停效果 */
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+/* 设置链接样式 */
+a {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px;
+  font-size: 16px;
+  color: #007bff;
+  box-shadow: 0 0 0 2px #fff;
+  text-decoration: none;
+}
+
+/* 设置按钮样式 */
+input[type="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 设置按钮的悬停效果 */
+input[type="button"]:hover {
+  background-color: #0062cc;
+}
+
+/* 设置div样式 */
+div {
+  text-align: center;
+}
+
+/* 设置表格样式 */
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 1000px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* 设置单元格样式 */
+td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+/* 设置图片格式 */
+table img {
+  max-width: 100%;
+  height: auto;
+}
